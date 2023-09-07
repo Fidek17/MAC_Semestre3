@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Constantes y Objetos Compartidos.md",
+                "file": "POO/Constantes y Objetos Compartidos.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 229.5
   },
   "right": {
     "id": "3f6153ce42eab4f3",
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Constantes y Objetos Compartidos.md",
+                "file": "POO/Constantes y Objetos Compartidos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Constantes y Objetos Compartidos.md",
+                "file": "POO/Constantes y Objetos Compartidos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Constantes y Objetos Compartidos.md"
+                "file": "POO/Constantes y Objetos Compartidos.md"
               }
             }
           }
@@ -170,7 +170,7 @@
   "active": "33ce60b491bd97f0",
   "lastOpenFiles": [
     "POO/Algunos conceptos.md",
-    "Constantes y Objetos Compartidos.md",
+    "POO/Constantes y Objetos Compartidos.md",
     "POO"
   ]
 }
