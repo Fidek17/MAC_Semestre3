@@ -4,5 +4,6 @@ exe
 *.log
 *.aux
 
+PortafolioLatex/
 
 .vscode
