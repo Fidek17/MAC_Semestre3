@@ -1,22 +1,10 @@
-<<<<<<< HEAD
-.vscode/
-=======
 .DS_Store
->>>>>>> b397f5c0990938d3d3340e2d0fdbd3bad1e5e46d
 exe
 *.pdf
 *.log
 *.aux
-<<<<<<< HEAD
-*.png
-*.jpg
 
-ProgramasEstructuradeDatos/ArrayBidim/y
-.DS_Store
-=======
 
-PortafolioLatex/
 
 .vscode
-notes/.obsidian
->>>>>>> b397f5c0990938d3d3340e2d0fdbd3bad1e5e46d
+.obsidian/
