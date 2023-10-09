@@ -36,6 +36,63 @@ Persona{Doctor, Luis, Maestra, Mamá, Emperador, Cliente}
 ```
 #### Polimorfismo
 
-Antes de continuar es importante conocer lo que es el polimorfismoç
+Antes de continuar es importante conocer lo que es el polimorfismo. 
+Como ya vimos antes, es posible hacer clases heredadas, es decir,  que a partir de una clase poder crear una subclase más especifica, tal fue el caso desde la clase Mamífero a Persona, siendo esta una nueva subclase derivada de Mamífero. 
 
-ACabar de explicar poliformismos con diagramas de flujo de mermaid de tipo clase, impmmenteacion de ejemplo de chat gpt, explicacion detallada y yap, Suerte Fidel del futuro, siempre quieres hacer muchas cosas y no te da timepo, mañanan te levantas como a la 6 y ya son las 2 aeme,, pide ayuda
+El **Polimorfismo** se refiere a la capacidad que tiene el lenguaje de, a partir de una clase con un método no implementado, generar nuevas subclases que implementen ese método solo definido y hacerlo de manera distinta para cada subclase si así se desea, a continuación mostrará un ejemplo códficado en Java ya que en este lenguaje deberá ser escrito el proyecto y además claro que es un lenguaje orientado a objetos
+
+**Ejemplo:**
+``` java
+// Clase base Animal
+class Animal {
+    public void hacerSonido() {
+        // Método base sin implementación específica
+    }
+}
+
+// Clase derivada Perro
+class Perro extends Animal {
+    @Override
+    public void hacerSonido() {
+        System.out.println("Woof!");
+    }
+}
+
+// Clase derivada Gato
+class Gato extends Animal {
+    @Override
+    public void hacerSonido() {
+        System.out.println("Miau!");
+    }
+}
+
+public class Main {
+    // Función que usa polimorfismo
+    public static void hacerRuido(Animal animal) {
+        animal.hacerSonido();
+    }
+
+    public static void main(String[] args) {
+        // Crear instancias de las clases derivadas
+        Perro perro = new Perro();
+        Gato gato = new Gato();
+
+        // Llamar a la función hacerRuido con diferentes objetos
+        hacerRuido(perro);  // Output: "Woof!"
+        hacerRuido(gato);   // Output: "Miau!"
+    }
+}
+
+```
+
+**Explicación:**
+ 1. Clase Animal: 
+		Primero se crea una clase llamada *Animal*, esta solo contiene un método o acción, esta es **hacerSonido()**, como se puede observar, antes tiene escrito las palabras *public void*. 
+			**Public:** Es un modificador que especifica quién tiene acceso a este método, el modificador **public** permite que el método *hacerSonido()* sea accesible desde cualquier parte del programa.
+			**Void:** Ya lo conocemos bien desde el lenguaje C, este funciona para especificar el tipo de retorno de la función, el caso de Void es que nunca devolverá algo o ningún valor, solo se ejecutará pero no será necesario regresar ningún valor de esta.
+		Como se puede ver el método **public void hacerSonido()** está definido, pero no implementado, es decir, existe pero no se dice realmente qué hace esa acción, esta abierto a que se defina, es un método vacío, no implementado. 
+		
+2. Clase Perro: 
+		Tiene escrito **class Perro extends Animal**, esta sintaxis funciona para lo siguiente:
+			**class Perro** especifica que se esta creando una clase llamada Perro, la parte extends es la que hace que la clase Perro se vuelva una clase heredada de **Animal**.
+			Por lo tanto se trata de la declaración de una nueva clase llamada **Perro** que es heredada de Animal por medio de la palabra **extends**, esto significa que heredará sus variables (atributos o propiedades) y métodos (acciones)
