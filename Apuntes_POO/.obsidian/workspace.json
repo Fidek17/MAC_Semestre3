@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "parametros",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -179,7 +180,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8dbf9be547c39a4a",
+  "active": "cb63a876fcee78df",
   "lastOpenFiles": [
     "Exposion 26 sep.md",
     "Introducción a POO.md",
